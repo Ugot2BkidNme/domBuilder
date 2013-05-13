@@ -102,12 +102,6 @@
 			else if (typeof content === "string") {element.appendChild(document.createTextNode(content));}
 			return element;
 		}
-		,stringTemplate = function (template, target) {
-
-		}
-		,emmettTemplate = function (template, target) {
-
-		}
 	;
 	return {
 		//expose want we want public to the public
